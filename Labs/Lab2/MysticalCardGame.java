@@ -45,8 +45,6 @@
 //84 79 26 57 45 61 4
 //10 13 64 70 55 93 60 14 50
 
-
-package Mari;
 import java.util.Scanner;
 
 
