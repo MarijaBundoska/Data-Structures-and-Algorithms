@@ -19,7 +19,6 @@
 // Точниот одговор е подолгиот збор, односно "star" (со должина 4).
 // Во низата може да има и дупликати.
 
-package Mari;
 
 import java.util.Scanner;
 
@@ -93,6 +92,7 @@ class Array<E>{
 			size--;
 		}
 	}
+
 	
 //	public void delete(int position) {
 //		if(position >= 0 && position < size){
@@ -176,8 +176,4 @@ public class ArrayMeanWWordLength{
 		System.out.println(wordClosestToAverageLength(arr));
 	}
 }
-
-
-
-
 
