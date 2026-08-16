@@ -38,7 +38,7 @@ class Array<E>{
 	public void insertLast(E o) {
 		if(size + 1 > data.length)
 			this.resize();
-		data[size++]=o;
+		data[size++] = o;
 	}
 	
 	public void insert(int position, E o) {
@@ -66,7 +66,7 @@ class Array<E>{
 		if(position >=0 && position < size)
 			return data[position];
 		else
-			System.out.println("Tge given position is not valid!");
+			System.out.println("The given position is not valid!");
 		return null;
 	}
 	
@@ -125,7 +125,7 @@ class Array<E>{
 			ret += "}";
 			return ret;
 		}else {
-			ret = "Prazna niza!";
+			ret = "Empty array!";
 		}
 		return ret;
 	}
