@@ -125,10 +125,20 @@ Cat->Outlier->Tiger->Outlier->Leopard->Lion->Outlier->Cheetah
 
 **Input:**
 ```text
+6
+Ant
+Giraffe
+Mouse
+Elephant
+Dog
+Whale
+7
 ```
 **Expected output:**
 
 ```text
+Ant->Giraffe->Mouse->Elephant->Dog->Whale
+Ant->Giraffe->Mouse->Outlier->Elephant->Dog->Whale
 ```
 
 
@@ -137,10 +147,21 @@ Cat->Outlier->Tiger->Outlier->Leopard->Lion->Outlier->Cheetah
 
 **Input:**
 ```text
+7
+Basketball
+Run
+Jumping
+Swimming
+Dance
+Play
+Cycling
+8
 ```
 **Expected output:**
 
 ```text
+Basketball->Run->Jumping->Swimming->Dance->Play->Cycling
+Outlier->Basketball->Run->Jumping->Swimming->Dance->Play->Cycling
 ```
 
 
@@ -149,10 +170,24 @@ Cat->Outlier->Tiger->Outlier->Leopard->Lion->Outlier->Cheetah
 
 **Input:**
 ```text
+10
+Happy
+Sad
+Ecstatic
+Tired
+Energetic
+Bored
+Exhausted
+Motivated
+Peaceful
+Annoyed
+9
 ```
 **Expected output:**
 
 ```text
+Happy->Sad->Ecstatic->Tired->Energetic->Bored->Exhausted->Motivated->Peaceful->Annoyed
+Happy->Sad->Ecstatic->Tired->Energetic->Bored->Exhausted->Motivated->Peaceful->Annoyed
 ```
 
 
@@ -162,10 +197,26 @@ Cat->Outlier->Tiger->Outlier->Leopard->Lion->Outlier->Cheetah
 
 **Input:**
 ```text
+12
+Mountain
+River
+Lake
+Ocean
+Desert
+Forest
+Valley
+Glacier
+Volcano
+Swamp
+Hill
+Canyon
+6
 ```
 **Expected output:**
 
 ```text
+Mountain->River->Lake->Ocean->Desert->Forest->Valley->Glacier->Volcano->Swamp->Hill->Canyon
+Outlier->Mountain->River->Lake->Ocean->Desert->Forest->Valley->Outlier->Glacier->Outlier->Volcano->Swamp->Hill->Canyon
 ```
 
 
@@ -174,8 +225,27 @@ Cat->Outlier->Tiger->Outlier->Leopard->Lion->Outlier->Cheetah
 
 **Input:**
 ```text
+15
+Code
+Develop
+Debug
+Deploy
+Review
+Write
+Compile
+Execute
+Optimize
+Design
+Document
+Maintain
+Refactor
+Test
+Implement
+7
 ```
 **Expected output:**
 
 ```text
+Code->Develop->Debug->Deploy->Review->Write->Compile->Execute->Optimize->Design->Document->Maintain->Refactor->Test->Implement
+Code->Develop->Debug->Deploy->Review->Write->Compile->Execute->Outlier->Optimize->Design->Outlier->Document->Outlier->Maintain->Outlier->Refactor->Test->Outlier->Implement
 ```
