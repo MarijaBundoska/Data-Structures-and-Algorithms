@@ -64,7 +64,6 @@ The list should be printed before and after the modification.
 
 
 
-
 ### Test Case 3
 
 **Input:**
@@ -79,6 +78,7 @@ The list should be printed before and after the modification.
 1<->3<->5<->7
 1<->3<->5<->7
 ```
+
 
 
 
@@ -97,6 +97,9 @@ The list should be printed before and after the modification.
 40<->50<->60<->10<->20<->30
 ```
 
+
+
+
 ### Test Case 5
 
 **Input:**
@@ -113,8 +116,6 @@ The list should be printed before and after the modification.
 ```
 
 
-
-
 ### Test Case 6
 
 **Input:**
@@ -129,8 +130,6 @@ The list should be printed before and after the modification.
 10<->20<->30<->40<->50<->60<->70<->80<->90<->100
 100<->10<->20<->30<->40<->50<->60<->70<->80<->90
 ```
-
-
 
 
 
@@ -151,9 +150,6 @@ The list should be printed before and after the modification.
 
 
 
-
-
-
 ### Test Case 8
 
 **Input:**
@@ -168,7 +164,6 @@ The list should be printed before and after the modification.
 1<->2<->3<->1<->2<->3
 1<->2<->3<->1<->2<->3
 ```
-
 
 
 
@@ -203,3 +198,4 @@ The list should be printed before and after the modification.
 0<->0<->0<->0
 0<->0<->0<->0
 ```
+
